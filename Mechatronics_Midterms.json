@@ -1,108 +1,80 @@
 {
 "Mechatronics Midterms": {
-"Week 1": {
-"Foundations & Automation": [
+"Week 1: Foundations & Automation": {
+"1. Official Class Quizzes": [
 {
-"qE": "Which of the following is the correct definition of Mechatronics?",
-"qK": "메카트로닉스에 대한 올바른 정의는 무엇인가?",
+"qE": "Which of the following is FALSE regarding cutting machining (절삭가공)?",
+"qK": "절삭가공에 대한 설명중 틀린 내용은?",
 "o": [
-"기계공학+전자공학 Mechanism+Electronics",
-"소프트웨어+화학공학 Software+Chemical",
-"순수기계조립 Pure_Mechanical_Assembly",
-"공장건물설계 Factory_Architecture"
+"가공물회전(선반) Lathe_rotates_workpiece",
+"커터회전(밀링) Milling_rotates_cutter",
+"홀가공(드릴) Drill_makes_holes",
+"도자기/고무가공용이 Ceramics_and_Rubber_are_easy_to_machine"
 ],
-"a": 0,
-"eE": "Mechatronics is the integration of Mechanism (기계공학) and Electronics (전자공학), putting electronic 'brains' into mechanical 'muscles'.",
-"eK": "메카트로닉스는 기계공학(Mechanism)과 전자공학(Electronics)의 합성어입니다."
+"a": 3,
+"eE": "Standard cutting tools are designed for metals. Rubber is too elastic and ceramics are too brittle to be easily machined.",
+"eK": "절삭가공에 사용되는 일반적인 공구로는 도자기나 고무 가공이 어렵습니다."
 },
 {
-"qE": "What is the subtractive manufacturing process that removes material using cutting tools?",
-"qK": "원재료를 절삭 공구를 사용하여 깎아내는 기계가공 방법은 무엇인가?",
+"qE": "Which of the following is FALSE regarding production automation (생산자동화)?",
+"qK": "생산자동화에 대한 설명중 틀린 내용은?",
 "o": [
-"기계가공 Machining",
-"적층제조 Additive_Manufacturing",
-"주조 Casting",
-"표면경화 Surface_Hardening"
+"운영자동화시스템 Automates_operations",
+"생산성향상 Improves_productivity",
+"노동력의존 Relies_heavily_on_manual_labor",
+"로봇/CNC활용 Uses_robots_and_CNC"
 ],
-"a": 0,
-"eE": "Machining is a subtractive process where material is cut away to achieve the desired shape.",
-"eK": "기계가공은 절삭 공구를 사용하여 불필요한 부분을 깎아내는 과정입니다."
+"a": 2,
+"eE": "Automation specifically exists to eliminate the reliance on manual human labor through unmanned systems.",
+"eK": "생산자동화는 인간의 노동력 의존을 줄이고 무인화를 목표로 합니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "According to the Kimchi-jjigae analogy, what is the absolute foundation of a manufactured product?",
+"qK": "김치찌개 비유에 따르면, 제품 제조에서 가장 기초가 되는 것은 무엇인가?",
+"o": [
+"가공기계 Machining_equipment",
+"도면 Engineering_drawings",
+"원재료 Raw_materials_and_ingredients",
+"자동화 Automation"
+],
+"a": 2,
+"eE": "Just like fresh ingredients make a good stew, selecting the correct raw materials based on the engineering drawing is the foundation of manufacturing.",
+"eK": "좋은 재료가 맛있는 찌개를 만들 듯이, 도면에 맞는 원재료 선택이 제조의 핵심입니다."
 },
 {
-"qE": "It refers to a flaw in raw materials or the manufacturing process that results in a rejected part.",
-"qK": "원재료나 제조 공정상의 결함으로 인해 품질 검사를 통과하지 못한 부품을 무엇이라 하는가?",
+"qE": "Which of the following represents the correct formula for Mechatronics?",
+"qK": "메카트로닉스의 올바른 합성 원리는 무엇인가?",
 "o": [
-"불량/불량품 Defective_Product",
-"원재료 Raw_Material",
-"생산자동화 Production_Automation",
-"주문식교육 Customized_Education"
+"기계+전자 Mechanism_and_Electronics",
+"소프트웨어+화학 Software_and_Chemistry",
+"전기+건축 Electricity_and_Architecture",
+"순수기계조립 Pure_Mechanical_Assembly"
 ],
 "a": 0,
-"eE": "A defect or defective product occurs when there is a flaw in the material or process.",
-"eK": "불량은 재료나 공정의 결함으로 인해 발생한 실패한 제품을 의미합니다."
+"eE": "Mechatronics is the integration of mechanical engineering (the muscles) and electronic engineering (the brains).",
+"eK": "메카트로닉스는 기계공학(Mechanism)과 전자공학(Electronics)의 융합입니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Which components act as the 'brain' and the 'body' of a Smart Factory?",
+"qK": "스마트 팩토리에서 두뇌와 몸통 역할을 하는 시스템은?",
+"o": [
+"PLC와FMS PLC_and_Flexible_Manufacturing_Systems",
+"CAD와CAM Design_and_Manufacturing_Software",
+"선반과밀링 Lathe_and_Milling",
+"원재료와제품 Raw_Material_and_Product"
+],
+"a": 0,
+"eE": "Engineers write programs on the PLC (brains) and interface them with the FMS (body) to run the factory automatically.",
+"eK": "엔지니어가 PLC에 프로그램을 작성하고 FMS와 연동하여 공장을 자동화합니다."
 }
 ]
 },
-"Week 2": {
-"Materials & Phase Diagrams": [
-{
-"qE": "What is the carbon content boundary that separates Steel from Cast Iron in the Fe-C phase diagram?",
-"qK": "철-탄소 상태도에서 강(Steel)과 주철(Cast Iron)을 구분하는 탄소 함유량 경계는 몇 %인가?",
-"o": [
-"2.1% 2.1%_Carbon_Boundary",
-"0.8% 0.8%_Carbon_Boundary",
-"4.3% 4.3%_Carbon_Boundary",
-"6.67% 6.67%_Carbon_Boundary"
-],
-"a": 0,
-"eE": "The critical boundary is 2.1% Carbon. Less than 2.1% is Steel, and more than 2.1% is Cast Iron.",
-"eK": "탄소 함유량 2.1%를 기준으로 그 이하는 강(Steel), 이상은 주철(Cast Iron)로 구분합니다."
-},
-{
-"qE": "Which material property describes the ability of a metal to be pulled into a wire?",
-"qK": "금속을 가느다란 선으로 뽑을 수 있는 성질(뽑힘성)을 무엇이라 하는가?",
-"o": [
-"연성 Ductility",
-"전성 Malleability",
-"취성 Brittleness",
-"경도 Hardness"
-],
-"a": 0,
-"eE": "Ductility is the ability to be drawn into a wire, while Malleability is the ability to be hammered into sheets.",
-"eK": "연성(뽑힘성)은 선으로 뽑을 수 있는 성질이며, 전성(퍼짐성)은 얇게 펴지는 성질입니다."
-}
-]
-},
-"Week 3": {
-"Material Properties & Testing": [
-{
-"qE": "Which of the following is NOT a method for measuring material hardness?",
-"qK": "재료의 경도 측정법이 아닌 것은?",
-"o": [
-"샤르피시험 Charpy_impact_test",
-"반발시험 Rebound_hardness_test",
-"긋기시험 Scratching_hardness_test",
-"압입시험 Indentation_hardness_test"
-],
-"a": 0,
-"eE": "Charpy is an impact test used to measure Toughness, not Hardness.",
-"eK": "샤르피 시험은 경도가 아닌 인성(Toughness)을 측정하는 충격 시험입니다."
-},
-{
-"qE": "The property of a metal returning to its original state when an external force is removed is elasticity. (True/False)",
-"qK": "금속에 외력을 가하였다가 외력을 제거하면 원래 상태로 되돌아가는 성질은 탄성이다. (O/X)",
-"o": [
-"O True",
-"X False"
-],
-"a": 0,
-"eE": "Elasticity is the ability of a material to return to its original shape. If it deforms permanently, it is plasticity.",
-"eK": "외력을 제거했을 때 원래의 상태로 되돌아가는 성질을 탄성이라고 합니다."
-}
-]
-},
-"Week 4": {
-"Non-Ferrous Metals": [
+"Week 2: Materials & Phase Diagrams": {
+"1. Official Class Quizzes": [
 {
 "qE": "Which of the following is NOT included in non-ferrous metals?",
 "qK": "비철금속에 포함되지 않는 것은?",
@@ -113,52 +85,127 @@
 "니켈 Nickel"
 ],
 "a": 2,
-"eE": "'Non-ferrous' means metals that do not have iron. Cast Iron contains iron and high carbon.",
-"eK": "주철은 철을 포함하고 있으므로 철강재료(철금속)로 분류됩니다."
+"eE": "Cast Iron literally contains iron and a high amount of carbon (>2.1%), making it a ferrous (steel) material.",
+"eK": "주철은 철과 다량의 탄소(2.1% 이상)를 포함하고 있으므로 철강재료(철금속)입니다."
 },
 {
-"qE": "Among non-ferrous materials, copper is a good conductor of electricity and heat, and its alloys include brass and bronze. (True/False)",
-"qK": "비철재료 중 동은 전기 및 열의 양도체이며 부식에 강하고, 합금의 종류로는 황동합금과 청동합금이 있다. (O/X)",
+"qE": "Which heat treatment increases toughness, stabilizes the structure, and relieves stress?",
+"qK": "인성증가, 조직의 안정화, 스트레스 제거를 목적으로 하는 열처리는?",
 "o": [
-"O True",
-"X False"
-],
-"a": 0,
-"eE": "Copper is an excellent conductor. Brass is Copper+Zinc, and Bronze is Copper+Tin.",
-"eK": "동(구리)은 전도성이 우수하며, 황동(구리+아연)과 청동(구리+주석) 등의 합금이 있습니다."
-}
-]
-},
-"Week 5": {
-"Heat Treatments": [
-{
-"qE": "The heat treatment method aimed at increasing toughness, stabilizing structure, and relieving stress is tempering. (True/False)",
-"qK": "강의 일반열처리법 중 인성증가, 조직의 안정화, 스트레스제거의 목적으로 하는 열처리 방법은 뜨임이다. (O/X)",
-"o": [
-"O True",
-"X False"
-],
-"a": 0,
-"eE": "Tempering is done after Quenching to relieve internal stress and bring back the material's toughness.",
-"eK": "뜨임은 담금질 후 내부 응력을 제거하고 인성을 회복시켜 부서지지 않게 하는 열처리입니다."
-},
-{
-"qE": "Which of the following is NOT included in the types of general heat treatment for steel?",
-"qK": "강의 일반 열처리 종류에 포함되지 않는 것은?",
-"o": [
-"담금질 Quenching",
-"풀림 Annealing",
 "불림 Normalizing",
-"질화법 Nitriding"
+"풀림 Annealing",
+"담금질 Quenching",
+"뜨임 Tempering"
 ],
 "a": 3,
-"eE": "Nitriding is a Surface Hardening process that only hardens the outer skin, not the whole block.",
-"eK": "질화법은 전체를 열처리하는 일반 열처리가 아니라 표면만 경화시키는 표면경화법입니다."
+"eE": "Tempering is done after Quenching to relieve internal stress and bring back the material's toughness so it doesn't shatter.",
+"eK": "뜨임은 담금질 후 내부 응력을 제거하고 인성을 회복시키기 위해 수행됩니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "According to the POSCO rolling mill example, which property allows massive steel blocks to be squeezed into thin flat sheets?",
+"qK": "포스코 압연기 사례에서, 두꺼운 철판을 얇게 펴게 해주는 성질은?",
+"o": [
+"연성 Ductility_Stretchability",
+"전성 Malleability_Flattenability",
+"취성 Brittleness",
+"경도 Hardness"
+],
+"a": 1,
+"eE": "Malleability allows metal to be flattened or rolled into sheets. Ductility is pulling it into wires.",
+"eK": "전성(퍼짐성)은 금속을 얇게 펼 수 있는 성질입니다."
+},
+{
+"qE": "In the Fe-C phase diagram, what carbon percentage separates Steel from Cast Iron?",
+"qK": "철-탄소 상태도에서 강과 주철을 구분하는 탄소 함유량 경계는?",
+"o": [
+"0.8% Eutectoid_Point",
+"2.1% Magic_Boundary",
+"4.3% Eutectic_Point",
+"6.67% Cementite_Limit"
+],
+"a": 1,
+"eE": "2.1% or less is Steel. 2.1% or more is Cast Iron.",
+"eK": "탄소 함유량 2.1%를 기준으로 그 이하는 강(Steel), 이상은 주철(Cast Iron)입니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Why is it important to understand that a car has 30,000 parts when studying materials?",
+"qK": "재료를 공부할 때 자동차가 3만 개의 부품으로 이루어져 있다는 사실이 중요한 이유는?",
+"o": [
+"가격이동일함 All_parts_cost_the_same",
+"단일재료사용 One_material_fits_all",
+"부품마다요구물성이다름 Each_part_requires_different_properties",
+"조립이쉬움 Assembly_is_easy"
+],
+"a": 2,
+"eE": "An engine block needs heat resistance, while an axle needs toughness. Different functions require careful material selection.",
+"eK": "각 부품마다 고열 견딤, 충격 흡수 등 요구되는 기계적 성질이 다르기 때문입니다."
 }
 ]
 },
-"Week 6": {
-"Phase Diagrams & Microstructures": [
+"Week 3: Material Properties & Testing": {
+"1. Official Class Quizzes": [
+{
+"qE": "Which of the following is NOT a method for measuring material hardness?",
+"qK": "재료의 경도 측정법이 아닌 것은?",
+"o": [
+"샤르피시험법 Charpy_impact_test",
+"반발에의한방법 Rebound_method",
+"긋기에의한방법 Scratching_method",
+"압입경도시험 Indentation_hardness"
+],
+"a": 0,
+"eE": "Charpy is an impact test used to measure Toughness, not Hardness.",
+"eK": "샤르피는 경도가 아닌 인성(Toughness)을 측정하는 충격 시험입니다."
+},
+{
+"qE": "The property of returning to its original state when an external force is removed is elasticity. (True/False)",
+"qK": "외력을 제거하면 원래 상태로 되돌아가는 성질은 탄성이다. (O/X)",
+"o": [
+"O_맞음 True",
+"X_틀림 False"
+],
+"a": 0,
+"eE": "This is the exact definition of Elasticity. If it stays bent, it is Plasticity.",
+"eK": "탄성의 정확한 정의입니다. 원래 모양으로 돌아가지 않으면 소성(Plasticity)입니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "Which test literally pulls the material apart to find its yield point and breaking point?",
+"qK": "재료의 항복점과 파단점을 찾기 위해 재료를 잡아당기는 시험은?",
+"o": [
+"피로시험 Fatigue_Testing",
+"충격시험 Impact_Testing",
+"인장시험 Tensile_Testing",
+"경도시험 Hardness_Testing"
+],
+"a": 2,
+"eE": "Tensile testing (인장 시험) pulls the specimen apart to measure tensile strength and yield point.",
+"eK": "인장 시험은 재료를 양쪽에서 잡아당겨 인장강도와 항복점을 측정합니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Which testing method is critical for checking if a train wheel will fail over millions of rotations?",
+"qK": "수백만 번 회전하는 기차 바퀴가 파괴될지 확인하는 데 가장 중요한 시험은?",
+"o": [
+"인장시험 Tensile_Test",
+"피로시험 Fatigue_Test",
+"경도시험 Hardness_Test",
+"충격시험 Impact_Test"
+],
+"a": 1,
+"eE": "Fatigue testing finds the 'Fatigue Limit'—how much repeated, cyclic stress a material can take before failing.",
+"eK": "반복되는 응력에 재료가 견디는 한계를 알아내는 피로 시험이 필수적입니다."
+}
+]
+},
+"Week 4: Microstructures & Lattices": {
+"1. Official Class Quizzes": [
 {
 "qE": "Which of the following is NOT a standard/normal microstructure of steel?",
 "qK": "강의 표준조직이 아닌 것은?",
@@ -170,23 +217,53 @@
 ],
 "a": 0,
 "eE": "Martensite is an artificially forced, heat-treated structure created only by rapid quenching.",
-"eK": "마르텐사이트는 자연적인 표준조직이 아닌 급랭(담금질)에 의해 생성되는 열처리 조직입니다."
+"eK": "마르텐사이트는 정상적인 냉각이 아닌 급랭에 의해서만 생성되는 인위적인 열처리 조직입니다."
 },
 {
-"qE": "A graph showing state changes while slowly cooling from melting point, plotting composition ratio vs temperature, is a phase diagram. (True/False)",
-"qK": "순수 금속이나 합금을 서서히 냉각시키며 가로축은 원소 비율, 세로축은 온도를 나타낸 그래프는 평행상태도이다. (O/X)",
+"qE": "A graph showing state changes while slowly cooling, with element ratio on the X-axis and temp on the Y-axis, is a phase diagram. (True/False)",
+"qK": "가로축은 원소비율, 세로축은 온도로 서서히 냉각시 상태변화를 나타낸 것은 평행상태도이다. (O/X)",
 "o": [
-"O True",
-"X False"
+"O_맞음 True",
+"X_틀림 False"
 ],
 "a": 0,
-"eE": "This correctly defines the Equilibrium Phase Diagram (평행상태도).",
-"eK": "평행상태도는 온도와 첨가 원소의 비율에 따른 금속의 상태 변화를 나타낸 그래프입니다."
+"eE": "This correctly defines the Fe-C Phase diagram.",
+"eK": "이것은 평행상태도의 정확한 정의입니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "Which crystal lattice structure is the most ductile (flexible), making materials like Copper and Aluminum easy to shape?",
+"qK": "구리와 알루미늄처럼 가공하기 쉬우며 가장 연성이 좋은 결정격자 구조는?",
+"o": [
+"BCC 체심입방격자",
+"FCC 면심입방격자",
+"HCP 조밀육방격자",
+"Fe3C 시멘타이트"
+],
+"a": 1,
+"eE": "FCC (Face-Centered Cubic) is the most flexible/ductile atomic arrangement. Memory hook: FCC = Flexible.",
+"eK": "면심입방격자(FCC)는 가장 연성이 좋아 변형이 쉽습니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "At what specific point on the phase diagram does Austenite transform into layered Pearlite?",
+"qK": "상태도에서 오스테나이트가 펄라이트로 변태하는 특정 지점은?",
+"o": [
+"탄소0.8%공석점 0.8%_Carbon_Eutectoid",
+"탄소2.1%경계선 2.1%_Carbon_Boundary",
+"탄소4.3%공정점 4.3%_Carbon_Eutectic",
+"탄소6.67%한계 6.67%_Carbon_Limit"
+],
+"a": 0,
+"eE": "The magic Eutectoid point (공석점) occurs at exactly 0.8% Carbon and 727°C.",
+"eK": "탄소 함유량 0.8%, 727°C에서 공석점(Eutectoid point)이 형성됩니다."
 }
 ]
 },
-"Week 7": {
-"Manufacturing Theory & Casting": [
+"Week 5: Casting & Special Machining": {
+"1. Official Class Quizzes": [
 {
 "qE": "Which of the following is NOT an advantage of casting?",
 "qK": "주조의 장점이 아닌 것은?",
@@ -194,22 +271,131 @@
 "대량생산가능 Mass_production",
 "생산비저렴 Low_cost",
 "복잡한형상용이 Complex_shapes",
-"금속합금어려움 Alloying_is_difficult"
+"합금이어렵다 Alloying_is_difficult"
 ],
 "a": 3,
-"eE": "Casting actually makes alloying extremely easy because the metals are melted into liquids first.",
-"eK": "주조는 금속을 액체 상태로 녹여 섞기 때문에 오히려 합금을 만들기가 매우 용이합니다."
-},
+"eE": "Casting actually makes alloying extremely easy because the metals are already liquids before pouring.",
+"eK": "주조는 금속을 액체 상태로 녹이기 때문에 합금 작업이 매우 쉽습니다."
+}
+],
+"2. Learning Material Concepts": [
 {
-"qE": "The study of manufacturing machines and instruments by transforming materials is called mechanical manufacturing. (True/False)",
-"qK": "각종 재료를 변형/성형하여 기계, 기구들을 제조하는 이론과 기술을 논하는 학문은 기계공작법이다. (O/X)",
+"qE": "Roughly what percentage of an automobile's parts are made using casting?",
+"qK": "자동차 부품의 약 몇 퍼센트가 주조를 통해 만들어지는가?",
 "o": [
-"O True",
-"X False"
+"10% Minor_parts",
+"30% Heavy_Engine_Blocks",
+"70% Body_Panels",
+"100% Entire_car"
+],
+"a": 1,
+"eE": "About 30% of a car (like the massive engine block) relies on casting to form complex heavy shapes.",
+"eK": "크고 복잡한 엔진 블록 등을 만들기 위해 자동차 부품의 약 30%가 주조로 제작됩니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Which special machining process is best for cutting extremely hardened metals using electrical sparks?",
+"qK": "열처리로 너무 단단해진 금속을 전기 불꽃을 이용해 가공하는 특수가공법은?",
+"o": [
+"초음파가공 USM",
+"방전가공 EDM",
+"레이저가공 LBM",
+"전해가공 ECM"
+],
+"a": 1,
+"eE": "Electrical Discharge Machining (EDM - 방전가공) melts hard metals using thousands of sparks per second.",
+"eK": "방전가공(EDM)은 전기 스파크를 이용해 매우 단단한 금속을 깎아냅니다."
+}
+]
+},
+"Week 6: Plastic Working": {
+"1. Official Class Quizzes": [
+{
+"qE": "Non-ferrous materials like copper are good conductors, resist corrosion, and include brass and bronze. (True/False)",
+"qK": "비철재료 중 동은 양도체이며 부식에 강하고, 합금으로는 황동과 청동이 있다. (O/X)",
+"o": [
+"O_맞음 True",
+"X_틀림 False"
 ],
 "a": 0,
-"eE": "This is the exact textbook definition for Mechanical Manufacturing (기계공작법).",
-"eK": "기계공작법은 다양한 재료를 가공하여 유용한 기계를 만드는 전체적인 이론과 기술을 다루는 학문입니다."
+"eE": "This is a perfect definition of Copper. Remember, Brass = Cu+Zn, Bronze = Cu+Sn.",
+"eK": "동(구리)에 대한 완벽한 교과서적 정의입니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "What is the key difference between Hot Working and Cold Working?",
+"qK": "열간 가공과 냉간 가공을 구분하는 가장 중요한 기준은?",
+"o": [
+"가공시간 Processing_time",
+"가공압력 Applied_pressure",
+"재결정온도 Recrystallization_temp",
+"원재료가격 Material_cost"
+],
+"a": 2,
+"eE": "Hot working is done above the recrystallization temperature; cold working is done below it.",
+"eK": "재결정 온도를 기준으로 그 이상이면 열간 가공, 이하이면 냉간 가공입니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Which plastic working process pushes hot metal out of a shaped die like squeezing toothpaste?",
+"qK": "치약을 짜는 것처럼 가열된 금속을 형틀(다이)로 밀어내어 뽑아내는 가공법은?",
+"o": [
+"단조 Forging",
+"압출 Extrusion",
+"인발 Drawing",
+"압연 Rolling"
+],
+"a": 1,
+"eE": "Extrusion (압출) is pushing/squeezing. Drawing (인발) is pulling into a wire.",
+"eK": "압출(Extrusion)은 밀어내는 방식이며, 인발(Drawing)은 당겨서 선을 뽑는 방식입니다."
+}
+]
+},
+"Week 7: Cutting Machining & Tools": {
+"1. Official Class Quizzes": [
+{
+"qE": "The discipline of manufacturing useful machines by transforming materials is mechanical manufacturing. (True/False)",
+"qK": "각종재료를 변형시켜 유용한 기계를 제작하는 학문은 기계공작법이다. (O/X)",
+"o": [
+"O_맞음 True",
+"X_틀림 False"
+],
+"a": 0,
+"eE": "This is the exact textbook definition for Mechanical Manufacturing.",
+"eK": "기계공작법에 대한 완벽한 교과서적 정의입니다."
+}
+],
+"2. Learning Material Concepts": [
+{
+"qE": "Which machine tool creates cylindrical shapes by spinning the actual workpiece against a stationary tool?",
+"qK": "고정된 공구에 가공물 자체를 회전시켜 원통형 모양을 깎아내는 공작기계는?",
+"o": [
+"선반 Lathe",
+"밀링 Milling",
+"드릴링 Drilling",
+"연삭 Grinding"
+],
+"a": 0,
+"eE": "In a Lathe (선반), the metal workpiece spins. In Milling, the cutter spins.",
+"eK": "선반(Lathe)은 가공물이 회전하고, 밀링(Milling)은 공구가 회전합니다."
+}
+],
+"3. MAIA's Predicted Exam Questions": [
+{
+"qE": "Which process is typically used at the very end to achieve a mirror-like precision finish?",
+"qK": "가장 마지막 단계에서 거울처럼 정밀한 표면을 얻기 위해 숫돌을 사용하는 가공은?",
+"o": [
+"선반가공 Turning",
+"연삭가공 Grinding",
+"드릴링 Drilling",
+"방전가공 EDM"
+],
+"a": 1,
+"eE": "Grinding (연삭) uses an abrasive wheel to remove tiny amounts of material for a perfect finish.",
+"eK": "연삭가공(Grinding)은 숫돌바퀴를 사용하여 초정밀 표면을 완성합니다."
 }
 ]
 }
